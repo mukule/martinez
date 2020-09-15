@@ -1,0 +1,51 @@
+head{
+    background: blue;
+}
+.payment-methods{
+    background: white;
+}
+nav{
+    height: 100px;
+    border-bottom: 4px solid coral;
+    position: fixed;
+    top: 0px;
+    background: #4C9CF1;
+    z-index: 100;
+   // overflow: hidden;
+   
+
+  
+}
+ul {
+
+    list-style: none;
+
+}  
+
+.current {
+
+    color: #2262AD;
+
+}
+nav ul, nav:active ul { 
+
+   // display: none;
+    position: absolute;
+   // padding: 20px;
+    background: #4C9CF1;
+   // border: 5px solid #444;
+    right: 20px;
+   // top: 60px;
+    width: 50%;
+   // border-radius: 4px 0 4px 4px;
+
+}
+
+li {
+    
+    display: inline-block;
+    padding: 10px
+
+
+}
+
